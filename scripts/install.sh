@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /home/ec2-user/my-node-app
-nohup npm start > app.log 2>&1 &
+npm install
