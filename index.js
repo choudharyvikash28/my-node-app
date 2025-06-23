@@ -6,6 +6,8 @@ app.get('/', (req, res) => {
   res.send('Hello from EC2 via CodeDeploy!');
 });
 
+
+
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
 });
